@@ -13,17 +13,20 @@ function scuberGreetingForFeet(rideLength){
 }
 
 function ternaryCheckCity(checkCity){
-  // Write your code here!
-  //Not sure why this ternary doesn't work...
-  // (checkCity === "NYC") ? 'Ok, sounds good.' : 'No go.';
-  
-  if (checkCity === 'NYC') {
-    return 'Ok, sounds good.';
-  }
-  else {
-    return 'No go.'
-  }
+
+  let response = (checkCity === 'NYC') ? 'Ok, sounds good.' : 'No go.';
+  return response;
+
 }
+
+
+//   if (checkCity === 'NYC') {
+//     return 'Ok, sounds good.';
+//   }
+//   else {
+//     return 'No go.'
+//   }
+// }
 
 function switchOnCharmFromTip(tip){
   // Write your code here!
